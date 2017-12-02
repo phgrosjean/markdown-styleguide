@@ -160,7 +160,7 @@ Vana'diel Chocobo Society | Chocobo Raising | FFXI:TOAU
 
 ## Links
 
-There are two ways to create links: `]()` or `<>`. First form:
+There are two ways to create links: `[]()` or `<>`. First form:
 
 ```
 [I'm an inline-style link](https://www.google.com)
