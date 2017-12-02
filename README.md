@@ -1,8 +1,7 @@
 # Style Guidelines: Markdown
 
 This document contains formatting standards for creating readable, consistent
-files using Markdown and R Markdown. It is adapted from an original document by
-[Carwin Young](https://github.com/carwin) [here](https://github.com/carwin/markdown-styleguide).
+files using Markdown and R Markdown. It is adapted from an original document [here](https://github.com/carwin/markdown-styleguide), with links and images adapted from [here](https://github.com/tox2ik/markdown-styleguide).
 
 
 ## Basic conventions for Markdown files
@@ -157,6 +156,86 @@ Group                     | Domain          | First Appearance
 ShinRa                    | Mako Reactors   | FFVII
 Moogles                   | MogNet          | FFIII
 Vana'diel Chocobo Society | Chocobo Raising | FFXI:TOAU
+
+
+## Links
+
+There are two ways to create links: `]()` or `<>`. First form:
+
+```
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+```
+
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+
+Second form uses `<>`, ... or even the just the URL that is automatically detected and interpreted as a link:
+
+``` 
+http://www.example.com or <http://www.example.com> and sometimes 
+example.com (but not on Github, for example).
+```
+
+http://www.example.com or <http://www.example.com> and sometimes 
+example.com (but not on Github, for example).
+
+
+## Images
+
+Images are incorporated in a similar way to links, using `![]()`.
+
+```
+Here's a logo (hover to see the title text):
+
+Inline-style: 
+![alt text](http://www.sciviews.org/images/site-title.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: http://www.sciviews.org/images/site-title.png "Logo Title Text 2"
+```
+
+Here's a logo (hover to see the title text):
+
+Inline-style: 
+![alt text](http://www.sciviews.org/images/site-title.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: http://www.sciviews.org/images/site-title.png "Logo Title Text 2"
 
 
 ## Footnotes
