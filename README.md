@@ -2,7 +2,7 @@
 
 This document contains formatting standards for creating readable, consistent
 files using Markdown and R Markdown. It is adapted from an original document by
-[Carwin Young](https://github.com/carwin) [here}(https://github.com/carwin/markdown-styleguide)]
+[Carwin Young](https://github.com/carwin) [here](https://github.com/carwin/markdown-styleguide).
 
 
 ## Basic conventions for Markdown files
